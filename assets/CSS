@@ -7,10 +7,8 @@
 /* header style*/
 
 /* main content style*/
-#main {
-background-color: beige;
-}
+.main {
+    background-color: rgb(238, 228, 136);
+    size: 100vh 100vw;
 
-
-/* footer style */ 
-
+    /* footer style */
