@@ -1,3 +1,8 @@
+/* Font import Google */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap')
+
+
 /* Aserisk style on all elements*/
 * {
     padding: 0;
@@ -11,7 +16,9 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic style*/
-    color: #f8c59c;
+    color: #252525de;
+    font-family: 'Nanum+Myeongjo',
+
 
 }
 
@@ -19,6 +26,9 @@ body {
 
 header {
     background-color: rgb(245, 146, 115);
+    
+    nav ul li {list-style: none;}
+
 }
 
 /*Main Content style*/
