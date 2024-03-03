@@ -5,20 +5,30 @@
     box-sizing: border-box;
 
 }
+/* General Styles body*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic style*/
+    color: #f8c59c;
 
-
+}
 
 /* Header style*/
 
 header {
-    background-color: lightskyblue;
+    background-color: rgb(245, 146, 115);
 }
 
-/**Main Content style/
+/*Main Content style*/
 
-main  {
-    background-color: aqua;
+main {
+background-color: #d6b193;
+flex: 1 0 auto;
 }
+
+
 
 /*Footer style*/
 
