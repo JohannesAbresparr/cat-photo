@@ -3,3 +3,14 @@
 /* header info */
 
 /* body language */
+
+/* header style*/
+
+/* main content style*/
+#main {
+background-color: beige;
+}
+
+
+/* footer style */ 
+
