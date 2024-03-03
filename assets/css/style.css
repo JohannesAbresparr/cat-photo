@@ -1,3 +1,13 @@
+/* Aserisk style on all elements*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
 /* Header style*/
 
 header {
