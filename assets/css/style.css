@@ -2,15 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap')
 
-
 /* Aserisk style on all elements*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
-    } 
-        
+}
+
 /* General Styles body*/
 body {
     min-height: 100vh;
@@ -27,59 +26,74 @@ body {
 /* Header style*/
 
 header {
-   
-    nav ul li {list-style: none;
-}
+    background-color: aliceblue;
+    position: fixed;
+    z-index: 99;
+    padding: 0%;
+    font-weight: 100;
+    width: 100vw;
+    box-shadow: 0 3px 3px #dbdbe49d;
+
+    nav ul li {
+        list-style: none;
+    }
 
 
 
-/*Main Content style*/
+    /*Main Content style*/
 
-main {
-background-color: #d6b193;
-flex: 1 0 auto;
-}
+    main {
+        background-color: #e9cfba;
+        color: black;
+        flex: 1 0 auto;
+    }
 
-/* Gallery Page Style*/
-.gallerymain {background-color: bisque;}
+    /* Gallery Page Style*/
+    .gallerymain {
+        background-color: bisque;
+    }
 
-#photogallery 
-img {
-    display: flex;
-    width: 80%;
-    margin: 10%;
-    padding: 10%;
+    #photogallery img {
+        display: flex;
+        width: 80%;
+        margin: 10%;
+        padding: 10%;
 
-}
-figure {display: flexbox;
-    width: 100%;
-    display: flex;
-    width: 80%;
-    margin: 10%;
-    padding: 10%;
-}
-figure img {width: 80%;
-text-align: center;}
-figure figcaption {
-    text-align: left;
-    font-size: 1.7rem;
-    float: under;
-    width: 80%;
-    margin: 10%;
-    padding: 10%;
+    }
 
-    
-    
+    figure {
+        display: flexbox;
+        width: 100%;
+        display: flex;
+        width: auto;
+        margin: 10%;
+        padding: 10%;
+    }
 
+    figure img {
+        width: auto;
+        text-align: center;
+    }
 
-}
-
+    figure figcaption {
+        text-align: left;
+        font-size: 1.7rem;
+        float: under;
+        width: 80%;
+        margin: 10%;
+        padding: 10%;
 
 
-/*Footer style*/
 
-footer {
-    
-    background-color: lightcoral;
-}
 
+
+    }
+
+
+
+    /*Footer style*/
+
+    footer {
+
+        background-color: lightcoral;
+    }
