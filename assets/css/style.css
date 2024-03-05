@@ -5,27 +5,20 @@
 
 /* Aserisk style on all elements*/
 * {
-    @media screen{
-        min-width: none;
-        max-width: 1024;
-        flex-direction: column;
-               
-    } 
-    
-    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 
-}
+    } 
+        
 /* General Styles body*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /* Generic style*/
-    color: #252525de;
+    color: #c0c0c7ce;
     font-family: 'Nanum+Myeongjo', sans-serif;
 
 
@@ -86,6 +79,7 @@ figure figcaption {
 /*Footer style*/
 
 footer {
+    
     background-color: lightcoral;
 }
 
