@@ -1,10 +1,13 @@
 
 #Cat Photography Tips Website
 
+## Intro
 The Cat Photography Tips Website is intended to guide people who wants to take better photos of their cats or pets in some very basic photography steps. A small "how to" site just to get them started in expolring the world of pet photography.
 
 
 ## Features 
+
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -66,6 +69,9 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Testing 
+![image of html testing on index page](<Skärmbild 2024-03-05 161644.png>)
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
