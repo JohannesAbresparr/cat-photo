@@ -5,9 +5,18 @@
 
 /* Aserisk style on all elements*/
 * {
+    @media screen{
+        min-width: none;
+        max-width: 1024;
+        flex-direction: column;
+               
+    } 
+    
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 
 }
 /* General Styles body*/
@@ -25,17 +34,51 @@ body {
 /* Header style*/
 
 header {
-
-    
-    nav ul li {list-style: none;}
-
+   
+    nav ul li {list-style: none;
 }
+
+
 
 /*Main Content style*/
 
 main {
 background-color: #d6b193;
 flex: 1 0 auto;
+}
+
+/* Gallery Page Style*/
+.gallerymain {background-color: bisque;}
+
+#photogallery 
+img {
+    display: flex;
+    width: 80%;
+    margin: 10%;
+    padding: 10%;
+
+}
+figure {display: flexbox;
+    width: 100%;
+    display: flex;
+    width: 80%;
+    margin: 10%;
+    padding: 10%;
+}
+figure img {width: 80%;
+text-align: center;}
+figure figcaption {
+    text-align: left;
+    font-size: 1.7rem;
+    float: under;
+    width: 80%;
+    margin: 10%;
+    padding: 10%;
+
+    
+    
+
+
 }
 
 
