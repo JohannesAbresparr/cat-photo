@@ -47,6 +47,11 @@ header a h1 {
 }
 #logo {text-decoration: none;}
 
+/*Menu Style*/
+nav ul li a {
+    text-decoration: none;
+}
+
 /*INDEX Main Content style*/
 
 main {
