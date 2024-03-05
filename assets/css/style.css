@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap')
 
 /* Aserisk style on all elements*/
-* {
+
+    
+}
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -26,70 +28,43 @@ body {
 /* Header style*/
 
 header {
-    background-image: url(assets/images/header hello hello Vilja on the warderobe.jpg);
+   
     position: fixed;
     z-index: 99;
     padding: 0%;
     font-weight: 100;
     width: 100%;
     box-shadow: 0 3px 3px #dbdbe49d;
+    background-color: aliceblue 
 }
 
     nav ul li {
         list-style: none;
     }
-
-
 .headerimage {max-width: 100vw; text-align: center;}
-
+header a h1 {
+    text-decoration: none;
+}
+#logo {text-decoration: none;}
 /*Main Content style*/
 
 main {
-    background-color: #e9cfba;
+    background: linear-gradient (#ffffff9d #a06d6d94);
     color: black;
     flex: 1 0 auto;
+    
 }
 
 /* Gallery Page Style*/
 
 
-#photogallery img {
+.photogallery {
     display: flex;
-    width: 80%;
-    margin: 10%;
-    padding: 10%;
-
-}
-
-figure {
-    display: flexbox;
     width: 100%;
-    display: flex;
-    width: auto;
-    margin: 10%;
-    padding: 10%;
-}
-
-figure img {
-    width: auto;
-    text-align: center;
-}
-
-figure figcaption {
-    text-align: left;
-    font-size: 1.7rem;
-    float: under;
-    width: 80%;
     margin: 0%;
-    padding: 10%;
-
-
-
-
+    padding: 0%;
 
 }
-
-
 
 /*Footer style*/
 
