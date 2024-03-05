@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap')
 
 /* Aserisk style on all elements*/
-
-    
-}
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -32,6 +30,8 @@ header {
     position: fixed;
     z-index: 99;
     padding: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
     font-weight: 100;
     width: 100%;
     box-shadow: 0 3px 3px #dbdbe49d;
@@ -46,14 +46,24 @@ header a h1 {
     text-decoration: none;
 }
 #logo {text-decoration: none;}
-/*Main Content style*/
+
+/*INDEX Main Content style*/
 
 main {
     background: linear-gradient (#ffffff9d #a06d6d94);
     color: black;
     flex: 1 0 auto;
+    margin-top: 150px;
     
 }
+/* GALLERY main style*/
+
+
+
+
+/* CONTACT main style*/
+
+
 
 /* Gallery Page Style*/
 
