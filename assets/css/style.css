@@ -2,7 +2,7 @@
 /* Google Fonts Import */
 
 
-/* overall reset */
+/* overall style */
 * {
     margin: 0%;
     padding: 0%;
@@ -11,8 +11,23 @@
 
 img {
     display: block;
+    padding: .1rem;
     max-width: 100%;
     height: auto;
+}
+
+header {
+    background-color: beige;
+
+}
+
+main { background-color: rgb(240, 240, 164);
+
+
+}
+
+footer {background-color: rgb(177, 177, 27);
+
 }
 
 /* Media Query*/
