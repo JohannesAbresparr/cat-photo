@@ -34,9 +34,12 @@ header h1 {
 
 }
 
-header nav ul li a {
+#menu {
     list-style-type: none;
     text-decoration: none;
+    font-size: 120%;
+    letter-spacing: 3px;
+    
 
 }
 
