@@ -20,14 +20,17 @@ header {
     box-shadow: 0 3px 3px #59664ade;
 
 }
- header h1 {
+
+header h1 {
     padding-left: .5rem;
     padding-top: .5rem;
-   
- }
+
+}
 
 #logo {
     text-decoration: none;
+    color: inherit;
+
 
 }
 
@@ -36,6 +39,7 @@ header nav ul li a {
     text-decoration: none;
 
 }
+
 
 #active {
     color: rgb(0, 166, 231);
@@ -57,6 +61,9 @@ footer {
     background-color: rgb(177, 177, 27);
     color: black;
     position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 -3px 3px rgba(177, 177, 27, .6);
 }
 
 .social-media-links {
@@ -78,10 +85,36 @@ img {
 /* Media Query*/
 
 /* small screen */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    main {
+        padding-top: 8rem;
+    }
+
+}
 
 /* medium screen */
-@media screen and (max-width:992px) {}
+@media screen and (max-width:992px) {
+
+    main {
+        padding-top: 8rem;
+    }
+
+}
 
 /* large screen */
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+
+    main {
+        padding-top: 8rem;
+    }
+
+}
+
+/* big screen */
+@media screen and (min-width:1201px) {
+    main {
+        padding-top: 8rem;
+    }
+    
+}
