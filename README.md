@@ -69,7 +69,7 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Testing 
-![image of html testing on index page](<Skärmbild 2024-03-05 161644.png>)
+![image of html testing on index page](assets/images/Skärmbild 2024-03-05 161644.png)
 
 
 
