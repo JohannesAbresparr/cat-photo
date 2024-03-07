@@ -14,3 +14,24 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Media Query*/
+
+/* small screen */
+@media screen and (max-width: 768px)
+{
+    
+}
+
+/* medium screen */
+@media screen and (max-width:992px)
+{
+    
+}
+
+/* large screen */
+@media screen and (max-width:1200px)
+{
+    
+} 
+
