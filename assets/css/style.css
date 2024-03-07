@@ -7,6 +7,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    flex-direction: column;
 }
 
 
@@ -68,19 +69,21 @@ main {
 
 }
 
-footer {
+.footer section nav a {
     background-color: rgb(177, 177, 27);
     color: black;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 -3px 3px rgba(177, 177, 27, .6);
+    
 }
 
 .social-media-links {
 
     text-decoration: none;
     color: blue;
+    justify-content: space-between;
 }
 
 /* Gallery Page */
@@ -100,6 +103,7 @@ img {
 
     main {
         padding-top: 8rem;
+        padding-bottom: 5rem;
     }
 
 }
@@ -109,6 +113,7 @@ img {
 
     main {
         padding-top: 8rem;
+        padding-bottom: 5rem;
     }
 
 }
@@ -118,14 +123,15 @@ img {
 
     main {
         padding-top: 8rem;
+        padding-bottom: 5rem;
     }
-
 }
 
 /* big screen */
 @media screen and (min-width:1201px) {
     main {
         padding-top: 8rem;
+        padding-bottom: 5rem;
     }
 
 }
