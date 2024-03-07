@@ -9,6 +9,51 @@
     box-sizing: border-box;
 }
 
+
+
+header {
+    background-color: beige;
+
+
+}
+
+#logo {
+    text-decoration: none;
+}
+
+header nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#active {
+    color: rgb(0, 166, 231);
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+main {
+    background-color: rgb(240, 240, 164);
+
+
+}
+
+footer {
+    background-color: rgb(177, 177, 27);
+    color: black;
+}
+
+.social-media-links {
+
+text-decoration: none; color: blue;
+}
+
+/* Gallery Page */
+
 img {
     display: block;
     padding: .1rem;
@@ -16,37 +61,14 @@ img {
     height: auto;
 }
 
-header {
-    background-color: beige;
-
-}
-
-main { background-color: rgb(240, 240, 164);
-
-
-}
-
-footer {background-color: rgb(177, 177, 27);
-color: black;
-}
 
 /* Media Query*/
 
 /* small screen */
-@media screen and (max-width: 768px)
-{
-    
-}
+@media screen and (max-width: 768px) {}
 
 /* medium screen */
-@media screen and (max-width:992px)
-{
-    
-}
+@media screen and (max-width:992px) {}
 
 /* large screen */
-@media screen and (max-width:1200px)
-{
-    
-} 
-
+@media screen and (max-width:1200px) {}
