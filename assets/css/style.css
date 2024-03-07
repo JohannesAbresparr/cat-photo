@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    padding-left: .5rem;
+
     padding-top: .5rem;
 
 }
@@ -30,6 +30,7 @@ header h1 {
 #logo {
     text-decoration: none;
     color: inherit;
+    text-align: center;
 
 
 }
@@ -39,15 +40,22 @@ header h1 {
     text-decoration: none;
     font-size: 120%;
     letter-spacing: 3px;
-    
-
+    cursor: grab;
 }
 
+#menu li a {
+    text-decoration: none;
+}
 
-#active {
+.active {
     color: rgb(0, 166, 231);
-    text-decoration-line: underline;
+    border: 2px solid rgb(0, 166, 231);
 }
+
+
+
+
+
 
 a:hover {
     color: rgb(255, 255, 255);
@@ -119,5 +127,5 @@ img {
     main {
         padding-top: 8rem;
     }
-    
+
 }
