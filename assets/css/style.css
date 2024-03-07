@@ -13,17 +13,28 @@
 
 header {
     background-color: beige;
-
+    padding: 0, 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #59664ade;
 
 }
+ header h1 {
+    padding-left: .5rem;
+    padding-top: .5rem;
+   
+ }
 
 #logo {
     text-decoration: none;
+
 }
 
 header nav ul li a {
     list-style-type: none;
     text-decoration: none;
+
 }
 
 #active {
@@ -45,11 +56,13 @@ main {
 footer {
     background-color: rgb(177, 177, 27);
     color: black;
+    position: fixed;
 }
 
 .social-media-links {
 
-text-decoration: none; color: blue;
+    text-decoration: none;
+    color: blue;
 }
 
 /* Gallery Page */
