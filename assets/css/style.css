@@ -6,7 +6,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+   
     flex-direction: column;
 }
 
@@ -63,29 +63,38 @@ a:hover {
     background-color: blue;
 }
 
+/* main content style*/
+
 main {
     background-color: rgb(240, 240, 164);
 
 
 }
-
+/* footer content style */
 footer {
     background-color: rgb(177, 177, 27);
     color: black;
     position: fixed;
+    padding-bottom: 0;
     z-index: 99;
     width: 100%;
-    height: 3rem;
+    height: 10%;
     box-shadow: 0 -3px 3px rgba(177, 177, 27, .6);
+    flex-direction: row;
 
 }
 
 .social-media-links {
+    
+    text-align: center;
+    color: rgb(0, 0, 255);
+    font-size: 150%;
 
-    text-decoration: none;
-    color: blue;
-   
 }
+.social-media-links > li {
+    display: inline;
+}
+
 
 /* Gallery Page */
 
@@ -98,6 +107,18 @@ img {
 
 
 /* Media Query*/
+
+/* tiny screen */
+@media screen and (max-width: 767px) {
+   
+    
+    main {
+        padding-top: 25rem;
+        padding-bottom: 5rem;
+    
+    }
+
+}
 
 /* small screen */
 @media screen and (max-width: 768px) {
