@@ -69,21 +69,22 @@ main {
 
 }
 
-.footer section nav a {
+footer {
     background-color: rgb(177, 177, 27);
     color: black;
     position: fixed;
     z-index: 99;
     width: 100%;
+    height: 3rem;
     box-shadow: 0 -3px 3px rgba(177, 177, 27, .6);
-    
+
 }
 
 .social-media-links {
 
     text-decoration: none;
     color: blue;
-    justify-content: space-between;
+   
 }
 
 /* Gallery Page */
