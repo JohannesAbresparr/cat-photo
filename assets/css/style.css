@@ -1,8 +1,7 @@
 /* Stylesheet */
 /* Google Fonts Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap') 
-
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
 /*imported font styles 
 
 foldit-<foldit> {
@@ -69,16 +68,20 @@ body {
     font-size: 20px;
     color: rgb(146, 1, 103);
     font-weight: 300;
-    padding-top: 2rem;
-    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 5rem;
     padding-inline: .2rem;
     align-items: center;
-
+    
+}.navbar a {
+    text-decoration: none;
 }
 
 .active {
     color: rgb(0, 166, 231);
     border: 2px solid rgb(0, 166, 231);
+    text-decoration: underline;
 }
 
 
@@ -86,6 +89,7 @@ body {
 a:hover {
     color: rgba(46, 183, 247, 0.753);
     background-color: rgba(255, 240, 35, 0.274);
+    transition: .5s;
 }
 
 /* main content style*/
@@ -106,14 +110,16 @@ footer {
 .social-media-links {
 
     text-align: center;
-    color: rgb(0, 0, 255);
+    color: rgb(11, 11, 248);
     font-size: 150%;
-    font-family: 'quicksand', sans-serif;
+    font-family: sans-serif;
 
 }
 
 .social-media-links>li>a>i {
     display: inline;
+    align-items: baseline;
+
 }
 
 
