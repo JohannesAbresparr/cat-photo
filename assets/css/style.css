@@ -65,13 +65,14 @@ body {
 
 
 .navbar {
-    font-family: quicksand, sans-serif;
+    font-family: 'quicksand', sans-serif;
     font-size: 20px;
-    color: rgb(75, 9, 34);
+    color: rgb(146, 1, 103);
     font-weight: 300;
     padding-top: 2rem;
     padding-right: 5rem;
     padding-inline: .2rem;
+    align-items: center;
 
 }
 
