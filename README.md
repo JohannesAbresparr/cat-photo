@@ -5,7 +5,7 @@
 The Cat Photography Tips Website is intended to guide people who wants to take better photos of their cats or pets in some very basic photography steps. A small "how to" site just to get them started in expolring the world of pet photography.
 
 
-## Features 
+## Features User Experience
 
 
 
@@ -54,7 +54,7 @@ The gallery page shows some examples of pictures I have taken, there is also an 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __The Contact Page __
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 

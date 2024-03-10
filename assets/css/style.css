@@ -57,8 +57,8 @@ body {
     text-decoration: none;
     color: #8234ffef;
     text-align: center;
-    font-family: foldit, Sans-serif;
-    font-weight: 200;
+    font-family: 'foldit', Sans-serif;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -69,6 +69,10 @@ body {
     font-size: 20px;
     color: rgb(75, 9, 34);
     font-weight: 300;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-inline: .2rem;
+
 }
 
 .active {
@@ -100,9 +104,10 @@ footer {
 
 .social-media-links {
 
-    /* text-align: center;
+    text-align: center;
     color: rgb(0, 0, 255);
-    font-size: 150%; */
+    font-size: 150%;
+    font-family: 'quicksand', sans-serif;
 
 }
 
