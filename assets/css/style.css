@@ -1,55 +1,74 @@
 /* Stylesheet */
 /* Google Fonts Import */
 
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap') 
+
+/*imported font styles 
+
+foldit-<foldit> {
+    font-family: "foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+quicksand-<quicksand> {
+    font-family: "quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+*/
 
 /* overall style */
 * {
     margin: 0%;
     padding: 0%;
-   
+    box-sizing: border-box;
     flex-direction: column;
+
+}
+
+body {
+    min-height: 100vh;
+
 }
 
 
 
-header {
+.header {
     background-color: beige;
     padding: 0, 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #59664ade;
-
-}
-
-header h1 {
-
-    padding-top: .5rem;
-
-}
-
-#logo {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-
-
-}
-
-#menu {
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 120%;
-    letter-spacing: 3px;
-    cursor: grab;
-}
-
-#menu ul li a {
-    text-decoration: none;
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 
+
+}
+
+
+
+.logo {
+    text-decoration: none;
+    color: #8234ffef;
+    text-align: center;
+    font-family: foldit, Sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+.navbar {
+    font-family: quicksand, sans-serif;
+    font-size: 20px;
+    color: rgb(75, 9, 34);
+    font-weight: 300;
 }
 
 .active {
@@ -59,12 +78,9 @@ header h1 {
 
 
 
-
-
-
 a:hover {
-    color: rgb(255, 255, 255);
-    background-color: blue;
+    color: rgba(46, 183, 247, 0.753);
+    background-color: rgba(255, 240, 35, 0.274);
 }
 
 /* main content style*/
@@ -74,21 +90,23 @@ main {
 
 
 }
+
 /* footer content style */
 footer {
     background-color: rgb(177, 177, 27);
-   
+
 
 }
 
 .social-media-links {
-    
+
     /* text-align: center;
     color: rgb(0, 0, 255);
     font-size: 150%; */
 
 }
-.social-media-links > li > a > i {
+
+.social-media-links>li>a>i {
     display: inline;
 }
 
@@ -96,23 +114,28 @@ footer {
 /* Gallery Page */
 
 img {
-    display: block;
+    display: flexbox;
     padding: .1rem;
     max-width: 100%;
     height: auto;
 }
 
+.gallery-img-txt {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: normal;
+}
 
 /* Media Query*/
 
 /* tiny screen */
 @media screen and (max-width: 767px) {
-   
-    
+
+
     main {
         padding-top: 25rem;
         padding-bottom: 5rem;
-    
+
     }
 
 }
