@@ -73,12 +73,13 @@ body {
     float: left;
 
 }
-#headerimage{
+#startimage{
     width: 100%;
     height: auto;
     padding: 0%;
     border: 0%;
     margin: 0%;
+    position: relative;
 }
 
 
@@ -193,13 +194,7 @@ footer nav {
         font-size: .2rem;
     
     }
-    #headerimage{
-        width: 100%;
-        height: auto;
-        padding: 0%;
-        border: 0%;
-        margin: 0%;
-    }
+   
         
        
 
