@@ -73,6 +73,7 @@ body {
     float: left;
 
 }
+
 #startimage{
     width: 100%;
     height: auto;
@@ -198,7 +199,7 @@ footer nav {
         
        
 
-    }
+    
 
     main {
         padding-top: 8rem;
@@ -225,7 +226,7 @@ footer nav {
         width: 90vw;
 
     }
-
+}
 
 
     /* laptop screen */
@@ -261,4 +262,4 @@ footer nav {
                 padding-bottom: 5rem;
             }
         }
-    
+    }
