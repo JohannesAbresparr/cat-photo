@@ -33,6 +33,7 @@ quicksand-<quicksand> {
 }
 
 body {
+    min-width: 100vw;
     min-height: 100vh;
 
 }
@@ -50,6 +51,8 @@ body {
     box-shadow: 0 3px 3px #59664ade;
     justify-content: space-between;
     align-items: center;
+    font-size: 1rem;
+    color: rgb(49, 47, 47);
 
 
 }
@@ -58,11 +61,12 @@ body {
 
 .logo {
     text-decoration: none;
-    color: #8234ffef;
+    color: purple;
     text-align: center;
-    font-family: "Foldit", Sans-serif;
+    font-family: "foldit", Sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 12px;
 
 }
 
@@ -85,9 +89,9 @@ body {
 }
 
 .active {
-    color: rgb(0, 166, 231);
-    border: 2px solid rgb(0, 166, 231);
-    text-decoration: underline;
+    color: rgb(3, 6, 212);
+    border: 2px solid rgb(25, 157, 209);
+
 }
 
 
@@ -113,7 +117,7 @@ footer {
 
 }
 
-.social-media-links {
+#social-media-links {
 
     text-align: center;
     color: rgb(11, 11, 248);
@@ -132,99 +136,137 @@ footer {
     padding: .1rem;
     justify-content: center;
     display: inline-block;
-    vertical-align: top; 
-    width:30%;
+    vertical-align: top;
+    width: 30%;
 
 }
 
- .figure img {
+.figure img {
     width: 100%;
     height: auto;
 }
 
 .figure figcaption {
 
-    text-align: center;
+    text-align: left;
     width: 100%;
     font-family: "quicksand", sans-serif;
-    font-size: larger;
-} 
+    font-size: 1rem;
+    padding: 1rem, 1rem, 1rem, 1rem;
+}
+
 
 /* Media Query*/
 
-/* tiny screen */
-@media screen and (max-width: 767px) {
-
-
-    main {
-        padding-top: 25rem;
-        padding-bottom: 5rem;
-
-    }
-
-    .figure {
-        padding: .1rem;
-        height: auto;
-        width: 80vw;
-        justify-content: center;
-        align-items: center;
-        display: inline-table;
-
-}
-
 /* small screen */
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        font-size: .2rem;
+    }
 
     main {
         padding-top: 8rem;
         padding-bottom: 5rem;
+
     }
+
     .figure {
-        padding: .1rem;
+        padding: 0%;
         height: auto;
-        width: 80vw;
+        width: 85%;
         justify-content: center;
         align-items: center;
         display: inline-table;
+        padding: 0%;
 
-}
-
-/* medium screen */
-@media screen and (max-width:992px) {
-
-    main {
-        padding-top: 8rem;
-        padding-bottom: 5rem;
     }
-    .figure {
-        padding: .1rem;
-        height: auto;
+
+    .figure figcaption {
+
+        font-size: .8rem;
+        color: rgb(19, 1, 1);
         width: 90vw;
-        justify-content: center;
-        align-items: center;
-        display: inline-table;
-        overflow-x: scroll;
-}
-
-/* large screen */
-@media screen and (max-width:1200px) {
-
-    main {
-        padding-top: 8rem;
-        padding-bottom: 5rem;
-    }
-}
-
-/* big screen */
-@media screen and (min-width:1201px) {
-    main {
-        padding-top: 15rem;
-        padding-bottom: 5rem;
-    }
-    .figure { 
-        width: 25%;
-        padding:10px;
 
     }
 
-}
+
+    /* medium screen */
+    @media screen and (max-width: 768px) {
+
+        .header {
+            font-size: 2rem;
+        }
+
+        main {
+            padding-top: 25rem;
+            padding-bottom: 5rem;
+        }
+
+        .figure {
+            padding: .1rem;
+            height: auto;
+            width: 80vw;
+            justify-content: center;
+            align-items: center;
+            display: inline-table;
+
+        }
+
+        /* bigger screen */
+        @media screen and (max-width:992px) {
+            .header {
+                font-size: 3rem;
+            }
+
+            main {
+                padding-top: 8rem;
+                padding-bottom: 5rem;
+            }
+
+            .figure {
+                padding: .1rem;
+                height: auto;
+                width: 90vw;
+                justify-content: center;
+                align-items: center;
+                display: inline-table;
+                overflow-x: scroll;
+            }
+
+            /* large screen */
+            @media screen and (max-width:1200px) {
+                .header {
+                    font-size: 3.5rem;
+                }
+
+                main {
+                    padding-top: 8rem;
+                    padding-bottom: 5rem;
+                }
+            }
+
+            /* largest screen */
+            @media screen and (min-width:1201px) {
+                .header {
+                    font-size: 5rem;
+                }
+
+                main {
+                    padding-top: 15rem;
+                    padding-bottom: 5rem;
+                }
+
+                .figure {
+                    width: 25%;
+                    padding: 10px;
+
+
+                }
+
+                .figure figcaption {
+                    font-size: 12rem;
+                }
+
+            }
