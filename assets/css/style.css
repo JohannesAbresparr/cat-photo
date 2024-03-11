@@ -35,7 +35,8 @@ quicksand-<quicksand> {
 body {
     min-width: 100vw;
     min-height: 100vh;
-    font-family: quicksand, sans-serif font-weight: 300;
+    font-family: quicksand, sans-serif;
+    font-weight: 300;
 
 }
 
@@ -71,6 +72,13 @@ body {
     font-size: 12px;
     float: left;
 
+}
+#headerimage{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
 }
 
 
@@ -185,8 +193,16 @@ footer nav {
         font-size: .2rem;
     
     }
-    .navbar {
+    #headerimage{
+        width: 100%;
+        height: auto;
+        padding: 0%;
+        border: 0%;
+        margin: 0%;
+    }
         
+       
+
     }
 
     main {
@@ -250,3 +266,4 @@ footer nav {
                 padding-bottom: 5rem;
             }
         }
+    
