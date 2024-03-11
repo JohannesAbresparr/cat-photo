@@ -5,14 +5,14 @@
 /*imported font styles 
 
 foldit-<foldit> {
-    font-family: "foldit", sans-serif;
+    font-family: foldit, sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
 quicksand-<quicksand> {
-    font-family: "quicksand", sans-serif;
+    font-family: quicksand, sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -35,6 +35,8 @@ quicksand-<quicksand> {
 body {
     min-width: 100vw;
     min-height: 100vh;
+    font-family: quicksand, sans-serif
+    font-weight: 300;
 
 }
 
@@ -63,25 +65,27 @@ body {
     text-decoration: none;
     color: purple;
     text-align: center;
-    font-family: "foldit", Sans-serif;
+    font-family: foldit, Sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
+    float: left;
 
 }
 
 
 .navbar {
-    font-family: "quicksand", sans-serif;
+    font-family: quicksand, sans-serif;
     font-size: 120%;
-    color: rgb(146, 1, 103);
-    font-weight: 300;
-    padding-top: 0%;
+    color: rgb(152 0 107);
+    font-weight: 200;
+    padding-top: 1.2rem;
     padding-bottom: .5rem;
-    margin-right: 0%;
+    margin-right: 10%;
     padding-inline: .2rem;
-    align-items: center;
-
+    align-items: center ;
+    float: right;
+    
 }
 
 .navbar a {
@@ -160,7 +164,7 @@ footer {
 /* Media Query*/
 
 /* small screen */
-//**
+
 @media screen and (max-width: 600px) {
 
     .header {
@@ -194,7 +198,8 @@ footer {
     }
 
 
-    /* medium screen *//*
+    /* medium screen */
+
     @media screen and (max-width: 768px) {
 
         .header {
@@ -216,9 +221,9 @@ footer {
             display: inline-table;
 
         }
-        */
+        
 
-        /* bigger screen */ /*
+        /* bigger screen */ 
         @media screen and (max-width:992px) {
             .header {
                 font-size: 3rem;
@@ -251,9 +256,9 @@ footer {
                     padding-bottom: 5rem;
                 }
             }
-            */
+            
 
-            /* largest screen */ /*
+            /* largest screen */ 
             @media screen and (min-width:1201px) {
                 .header {
                     font-size: 5rem;
@@ -277,4 +282,3 @@ footer {
                 }
 
             }
-*/
