@@ -3,13 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
 /* overall style */
-@media screen and (min-width:1px) {
+
+* {
     width: 100vw;
     min-height: 100vh;
-    margin: 0%;
-    padding: 0%;
-    border: 0%;
-    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: flex;
 
 }
 
@@ -19,7 +20,7 @@ body {
     font-family: quicksand, sans-serif;
     font-weight: 300;
     background-color: rgb(240, 240, 164);
-    
+
 
 }
 
@@ -66,21 +67,22 @@ body {
     position: relative;
 
 }
+
 #startimagecont {
     width: 50%;
     height: auto;
     padding-top: 4rem;
     border: 0;
     margin-left: 25%;
-    
+
 
 }
 
 
 .navbar {
     font-family: quicksand, sans-serif;
-    font-size: 120%;
-    color: rgb(152 0 107);
+    font-size: 200%;
+    color: rgb(173, 0, 116);
     font-weight: 200;
     padding-top: 1.2rem;
     padding-bottom: .5rem;
@@ -115,43 +117,56 @@ a:hover {
 main {
     background-color: rgb(240, 240, 164);
     height: 100vh;
-
+    flex-direction: column;
 
 }
 
 
 /* footer content style */
+
+
 footer {
     bottom: 0%;
     left: 0%;
-    background-color: rgb(107, 62, 4);
+    background-color: rgb(238, 184, 114);
     margin: 0%;
     position: fixed;
     z-index: 98;
     width: 100%;
     box-shadow: 3px 0px 3px #59664ade;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1rem;
-    color: rgb(124, 214, 250);
-
+    height: 120px;
 
 
 }
 
-footer nav {
-    align-content: space-around;
+.social-networks a:hover i {
+    color: rgba(243, 26, 10, 0.753);
+    background-color: rgba(236, 242, 247, 0.274);
+    transition: .5s;
+}
+
+.social-networks {
     text-align: center;
-    font-size: 150%;
-    list-style: none;
+    list-style-type: none;
+    
 }
 
-foter nav ul li a i {
-    font-size: 120%;
-    color: rgb(11, 11, 248);
+.social-networks li {
+    display: inline;
 }
+
+.social-networks i {
+    align-items: right;
+    font-size: 75px;
+    color: blue;
+    padding-inline: 5%;
+
+}
+
+
 
 /* Index Page Style */
+
 #indexpage {
     display: block;
     align-items: center;
@@ -159,6 +174,7 @@ foter nav ul li a i {
     padding: 5%;
     font-family: quicksand, sans-serif;
     font-size: 2rem;
+    margin-bottom: 14rem;
 
 }
 
@@ -175,7 +191,7 @@ foter nav ul li a i {
     box-shadow: 0px 3px 3px #c5a100;
 }
 
-}
+
 
 #figure img {
     width: 85vw;
@@ -205,7 +221,7 @@ foter nav ul li a i {
 
     main {
         padding-top: 8rem;
-        padding-bottom: 5rem;
+        padding-bottom: 8rem;
 
     }
 
@@ -273,12 +289,12 @@ foter nav ul li a i {
 
     main {
         padding-top: 10rem;
-        padding-bottom: 5rem;
+        margin-bottom: 15rem;
 
     }
 
     #figure {
-       
+
         padding: 0%;
         height: auto;
         width: 20rem;
