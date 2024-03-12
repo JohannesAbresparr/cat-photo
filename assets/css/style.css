@@ -74,7 +74,7 @@ body {
 
 }
 
-#startimage{
+#startimage {
     width: 100%;
     height: auto;
     padding: 0%;
@@ -127,11 +127,18 @@ main {
 
 /* footer content style */
 footer {
-    background-color: rgb(177, 177, 27);
-    display: block;
+    bottom:  0%;
+    left: 0%;
+    background-color: beige;
+    margin: 0%;
     position: fixed;
+    z-index: 98;
     width: 100%;
-    height: 5rem;
+    box-shadow: 3px 0px 3px #59664ade;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(49, 47, 47);
 
 
 
@@ -185,7 +192,7 @@ footer nav {
 }
 
 
-/* Media Query*/
+/* MEDIA QUERY STYLES*/
 
 /* mobile up to tablet screen */
 
@@ -193,13 +200,8 @@ footer nav {
 
     .header {
         font-size: .2rem;
-    
-    }
-   
-        
-       
 
-    
+    }
 
     main {
         padding-top: 8rem;
@@ -229,37 +231,70 @@ footer nav {
 }
 
 
-    /* laptop screen */
-    @media screen and (max-width:992px) {
-        .header {
-            font-size: 3rem;
-        }
+/* laptop screen */
+@media screen and (max-width:992px) {
+    .header {
+        font-size: .2rem;
 
-        main {
-            padding-top: 8rem;
-            padding-bottom: 5rem;
-        }
-
-        #figure {
-            clear: both;
-            padding: .1rem;
-            height: auto;
-            width: 90vw;
-            justify-content: center;
-            align-items: center;
-            display: inline-table;
-            overflow-x: scroll;
-        }
-
-        /* desktop screen */
-        @media screen and (max-width:1200px) {
-            .header {
-                font-size: 3.5rem;
-            }
-
-            main {
-                padding-top: 8rem;
-                padding-bottom: 5rem;
-            }
-        }
     }
+
+    main {
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+
+    }
+
+    #figure {
+        clear: both;
+        padding: 0%;
+        height: auto;
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+        display: inline-table;
+        padding: 0%;
+
+    }
+
+    #figure figcaption {
+
+        font-size: .8rem;
+        color: rgb(19, 1, 1);
+        width: 90vw;
+
+    }
+}
+
+/* desktop screen */
+@media screen and (max-width:1200px) {
+    .header {
+        font-size: .2rem;
+
+    }
+
+    main {
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+
+    }
+
+    #figure {
+        clear: both;
+        padding: 0%;
+        height: auto;
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+        display: inline-table;
+        padding: 0%;
+
+    }
+
+    #figure figcaption {
+
+        font-size: .8rem;
+        color: rgb(19, 1, 1);
+        width: 90vw;
+
+    }
+}
