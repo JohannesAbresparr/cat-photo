@@ -71,7 +71,7 @@ body {
 #startimagecont {
     width: 50%;
     height: auto;
-    padding-top: 4rem;
+    padding-top: 1rem;
     border: 0;
     margin-left: 25%;
 
@@ -116,7 +116,7 @@ a:hover {
 
 main {
     background-color: rgb(240, 240, 164);
-    height: 150vh;
+    height: 100vh;
     flex-direction: column;
 
 
@@ -139,6 +139,7 @@ footer {
 
 
 }
+
 footer h3 {
     color: blue;
     font-family: foldit, sans serif;
@@ -206,26 +207,30 @@ footer h3 {
     justify-content: center;
     display: inline-block;
     vertical-align: top;
-    width: 30%;
     box-shadow: 0px 3px 3px #c5a100;
+    max-width: 80vw;
 }
 
 
 
-#figure img {
-    width: 85vw;
-    height: auto;
-}
 
 #figure figcaption {
 
     text-align: left;
     font-size: .8rem;
     color: rgb(19, 1, 1);
-    width: 20vw;
+    max-width: 80vw;
     padding: 1rem;
 }
 
+/* Contact page style */
+
+#contactmain div {
+    text-align: center;
+    color: rgb(144, 50, 252);
+    font-family: foldit, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
 
 /* MEDIA QUERY STYLES*/
 
@@ -240,7 +245,7 @@ footer h3 {
 
     main {
         padding-top: 8rem;
-        padding-bottom: 8rem;
+        padding-bottom: 20rem;
 
     }
 
@@ -274,7 +279,7 @@ footer h3 {
     }
 
     main {
-        padding-top: 8rem;
+        padding-top: 3rem;
         padding-bottom: 5rem;
 
     }
@@ -307,8 +312,8 @@ footer h3 {
     }
 
     main {
-        padding-top: 10rem;
-        margin-bottom: 15rem;
+        padding-top: 5rem;
+        padding-bottom: 20rem;
 
     }
 
@@ -316,7 +321,7 @@ footer h3 {
 
         padding: 0%;
         height: auto;
-        width: 20rem;
+        width: 20%;
         justify-content: center;
         align-items: center;
         display: inline-table;
@@ -326,10 +331,46 @@ footer h3 {
 
     #figure figcaption {
         text-align: left;
-        font-size: .8rem;
+        font-size: 2rem;
         color: rgb(19, 1, 1);
-        width: 90vw;
+        width: 20%;
         padding: inherit;
 
     }
+}
+
+/* Wider and wider screen */
+@media screen and (min-width:1201px) {
+    .header {
+        font-size: .2rem;
+
+    }
+
+    main {
+        padding-top: 3rem;
+        padding-bottom: 20rem;
+
+    }
+
+    #figure {
+
+        padding: 0%;
+        height: auto;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        display: inline-table;
+        padding: 1rem;
+
+    }
+
+    #figure figcaption {
+        text-align: left;
+        font-size: 4rem;
+        color: rgb(19, 1, 1);
+        width: 20%;
+        padding: inherit;
+
+    }
+
 }
