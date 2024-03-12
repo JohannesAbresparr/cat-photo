@@ -15,9 +15,11 @@
 
 body {
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100%;
     font-family: quicksand, sans-serif;
     font-weight: 300;
+    background-color: rgb(240, 240, 164);
+    
 
 }
 
@@ -117,11 +119,12 @@ main {
 
 }
 
+
 /* footer content style */
 footer {
     bottom: 0%;
     left: 0%;
-    background-color: beige;
+    background-color: rgb(107, 62, 4);
     margin: 0%;
     position: fixed;
     z-index: 98;
@@ -130,7 +133,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
-    color: rgb(49, 47, 47);
+    color: rgb(124, 214, 250);
 
 
 
@@ -164,27 +167,28 @@ foter nav ul li a i {
 /* Gallery Page */
 
 #figure {
-    clear: both;
-    border: thin #eec305 solid;
+    border: thin #c5a100 solid;
     justify-content: center;
     display: inline-block;
     vertical-align: top;
     width: 30%;
+    box-shadow: 0px 3px 3px #c5a100;
+}
 
 }
 
 #figure img {
-    width: 100%;
+    width: 85vw;
     height: auto;
 }
 
 #figure figcaption {
 
     text-align: left;
-    width: 100%;
-    font-family: "quicksand", sans-serif;
-    font-size: 1rem;
-    padding: 5%;
+    font-size: .8rem;
+    color: rgb(19, 1, 1);
+    width: 20vw;
+    padding: 1rem;
 }
 
 
@@ -206,10 +210,9 @@ foter nav ul li a i {
     }
 
     #figure {
-        clear: both;
         padding: 0%;
         height: auto;
-        width: 85%;
+        width: 40rem;
         justify-content: center;
         align-items: center;
         display: inline-table;
@@ -221,7 +224,8 @@ foter nav ul li a i {
 
         font-size: .8rem;
         color: rgb(19, 1, 1);
-        width: 90vw;
+        width: 20vw;
+        padding: 1rem;
 
     }
 }
@@ -241,10 +245,9 @@ foter nav ul li a i {
     }
 
     #figure {
-        clear: both;
         padding: 0%;
         height: auto;
-        width: 85%;
+        width: 33rem;
         justify-content: center;
         align-items: center;
         display: inline-table;
@@ -275,22 +278,23 @@ foter nav ul li a i {
     }
 
     #figure {
-        clear: both;
+       
         padding: 0%;
         height: auto;
-        width: 85%;
+        width: 20rem;
         justify-content: center;
         align-items: center;
         display: inline-table;
-        padding: 0%;
+        padding: 1rem;
 
     }
 
     #figure figcaption {
-
+        text-align: left;
         font-size: .8rem;
         color: rgb(19, 1, 1);
         width: 90vw;
+        padding: inherit;
 
     }
 }
