@@ -2,32 +2,13 @@
 /* Google Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
-/*imported font styles 
-
-foldit-<foldit> {
-    font-family: foldit, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-quicksand-<quicksand> {
-    font-family: quicksand, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-*/
-
 /* overall style */
-* {
+@media screen and (min-width:1px) {
     width: 100vw;
     min-height: 100vh;
     margin: 0%;
     padding: 0%;
     border: 0%;
-    box-sizing: border-box;
     flex-direction: column;
 
 }
@@ -78,7 +59,7 @@ body {
     width: 100%;
     height: auto;
     padding: 0%;
-    border: 0%;
+    border: 0;
     margin: 0%;
     position: relative;
 }
@@ -127,7 +108,7 @@ main {
 
 /* footer content style */
 footer {
-    bottom:  0%;
+    bottom: 0%;
     left: 0%;
     background-color: beige;
     margin: 0%;
@@ -145,12 +126,15 @@ footer {
 }
 
 footer nav {
-
+    align-content: space-around;
     text-align: center;
-    color: rgb(11, 11, 248);
     font-size: 150%;
+    list-style: none;
+}
 
-
+foter nav ul li a i {
+    font-size: 120%;
+    color: rgb(11, 11, 248);
 }
 
 /* Index Page Style */
@@ -160,7 +144,7 @@ footer nav {
     justify-content: center;
     padding: 5%;
     font-family: quicksand, sans-serif;
-    font-size: 120%;
+    font-size: 2rem;
 
 }
 
