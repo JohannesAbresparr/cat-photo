@@ -116,8 +116,9 @@ a:hover {
 
 main {
     background-color: rgb(240, 240, 164);
-    height: 100vh;
+    height: 150vh;
     flex-direction: column;
+
 
 }
 
@@ -134,9 +135,19 @@ footer {
     z-index: 98;
     width: 100%;
     box-shadow: 3px 0px 3px #59664ade;
-    height: 120px;
+    height: 5rem;
 
 
+}
+footer h3 {
+    color: blue;
+    font-family: foldit, sans serif;
+    font-size: 3rem;
+    float: left;
+    padding-left: 2rem;
+    padding-top: .2rem;
+    align-items: center;
+    margin: 0%;
 }
 
 .social-networks a:hover i {
@@ -146,20 +157,28 @@ footer {
 }
 
 .social-networks {
-    text-align: center;
+    text-align: right;
     list-style-type: none;
-    
+
 }
 
 .social-networks li {
-    display: inline;
+    font-size: 200%;
+    color: rgb(173, 0, 116);
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+    margin-right: 2%;
+    padding-inline: .2rem;
+    align-items: center;
+    float: right;
 }
 
 .social-networks i {
     align-items: right;
-    font-size: 75px;
+    font-size: 3rem;
     color: blue;
-    padding-inline: 5%;
+    padding-inline: 2%;
+    padding-right: 10%;
 
 }
 
@@ -174,7 +193,7 @@ footer {
     padding: 5%;
     font-family: quicksand, sans-serif;
     font-size: 2rem;
-    margin-bottom: 14rem;
+    margin-bottom: 25rem;
 
 }
 
