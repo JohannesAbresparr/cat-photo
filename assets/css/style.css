@@ -2,6 +2,7 @@
 /* Google Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
+
 /* overall style */
 
 * {
@@ -16,11 +17,12 @@
 
 body {
     min-width: 100vw;
-    min-height: 100%;
+    min-height: 100vh;
     font-family: quicksand, sans-serif;
     font-weight: 300;
     background-color: rgb(240, 240, 164);
-
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -69,7 +71,7 @@ body {
 }
 
 #startimagecont {
-    width: 50%;
+    width: 40%;
     height: auto;
     padding-top: 1rem;
     border: 0;
@@ -116,8 +118,8 @@ a:hover {
 
 main {
     background-color: rgb(240, 240, 164);
-    height: 100vh;
-    flex-direction: column;
+    
+    flex-grow: 1;
 
 
 }
@@ -131,10 +133,10 @@ footer {
     left: 0%;
     background-color: rgb(238, 184, 114);
     margin: 0%;
-    position: fixed;
+    
     z-index: 98;
     width: 100%;
-    box-shadow: 3px 0px 3px #59664ade;
+    box-shadow: 0px -3px 3px #59664ade;
     height: 5rem;
 
 
@@ -179,7 +181,8 @@ footer h3 {
     font-size: 3rem;
     color: blue;
     padding-inline: 2%;
-    padding-right: 10%;
+    padding-right: 2%;
+    border-right: 10%;
 
 }
 
@@ -194,7 +197,7 @@ footer h3 {
     padding: 5%;
     font-family: quicksand, sans-serif;
     font-size: 2rem;
-    margin-bottom: 25rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -205,10 +208,11 @@ footer h3 {
 #figure {
     border: thin #c5a100 solid;
     justify-content: center;
-    display: inline-block;
-    vertical-align: top;
+    align-content: center;
+    display: inline-flexbox;
     box-shadow: 0px 3px 3px #c5a100;
-    max-width: 80vw;
+    max-width: 80%;
+    
 }
 
 
@@ -221,6 +225,7 @@ footer h3 {
     color: rgb(19, 1, 1);
     max-width: 80vw;
     padding: 1rem;
+    
 }
 
 /* Contact page style */
@@ -238,40 +243,69 @@ footer h3 {
 
 @media screen and (max-width: 768px) {
 
-    .header {
-        font-size: .2rem;
+    .logo {
+        font-size: .8rem;
+    }
+
+    .navbar {
+        justify-content: end;
 
     }
 
-    main {
-        padding-top: 8rem;
-        padding-bottom: 20rem;
+  main {
+    margin-top: 100px;
+  }
+
+    #indexpage section span {
+        padding-bottom: 2rem;
+        
 
     }
+
+ 
 
     #figure {
-        padding: 0%;
+
+        padding: 1%;
+        width: 80vw;
         height: auto;
-        width: 40rem;
         justify-content: center;
         align-items: center;
         display: inline-table;
         padding: 0%;
+        
 
     }
 
     #figure figcaption {
 
-        font-size: .8rem;
+        font-size: 2rem;
         color: rgb(19, 1, 1);
-        width: 20vw;
+        width: 80vw;
         padding: 1rem;
+        
 
     }
+
+    footer h3 {
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    .social-networks {
+        align-items: right;
+        font-size: .8rem;
+        color: blue;
+        padding-inline: 2%;
+        padding-right: 10%;
+
+    }
+
 }
 
 
 /* laptop screen */
+/*
 @media screen and (max-width:992px) {
     .header {
         font-size: .2rem;
@@ -305,6 +339,7 @@ footer h3 {
 }
 
 /* desktop screen */
+/*
 @media screen and (max-width:1200px) {
     .header {
         font-size: .2rem;
@@ -340,9 +375,11 @@ footer h3 {
 }
 
 /* Wider and wider screen */
+
+/*
 @media screen and (min-width:1201px) {
     .header {
-        font-size: .2rem;
+        font-size: .8rem;
 
     }
 
@@ -352,11 +389,21 @@ footer h3 {
 
     }
 
+    #indexpage section {
+
+        margin-bottom: 500px;
+    }
+
+
+    .gallerydiv {
+        margin-bottom: 500px;
+    }
+
     #figure {
 
         padding: 0%;
         height: auto;
-        width: 20%;
+        width: 20vw;
         justify-content: center;
         align-items: center;
         display: inline-table;
@@ -365,11 +412,9 @@ footer h3 {
     }
 
     #figure figcaption {
-        text-align: left;
-        font-size: 4rem;
-        color: rgb(19, 1, 1);
-        width: 20%;
-        padding: inherit;
+
+        width: 90%;
+        padding: 1rem;
 
     }
 
