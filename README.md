@@ -1,6 +1,8 @@
 
 #Cat Photography Tips Website
 
+![Responsive design](<responsive cat.png>)
+
 ## Intro
 The Cat Photography Tips Website is intended to guide people who wants to take better photos of their cats or pets in some very basic photography steps. A small "how to" site just to get them started in expolring the world of pet photography.
 

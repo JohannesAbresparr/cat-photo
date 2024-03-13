@@ -145,7 +145,7 @@ footer {
 
 footer h3 {
     color: blue;
-    font-family: foldit, sans serif;
+    font-family:"foldit, sans serif";
     font-size: 3rem;
     float: left;
     padding-left: 2rem;
@@ -178,12 +178,12 @@ footer h3 {
 }
 
 .social-networks i {
-    align-items: right;
-    font-size: 3rem;
+    align-items: end;
+    font-size: 2.5rem;
     color: blue;
     padding-inline: 2%;
     padding-right: 2%;
-    border-right: 10%;
+    
 
 }
 
