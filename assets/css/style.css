@@ -291,6 +291,8 @@ footer h3 {
     main {
         margin-top: 50px;
         display: flex;
+        column-count: 1;
+        column-gap: 2px;
 
     }
 
@@ -318,7 +320,7 @@ footer h3 {
     }
 
     #figure img {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     #figure figcaption {
@@ -368,7 +370,9 @@ footer h3 {
 
 
         float: right;
-        font-size: 1rem;
+        padding-bottom:1rem;
+        font-size: 1.2rem;
+        font-weight:bold;
 
 
     }
@@ -390,13 +394,14 @@ footer h3 {
     main {
         padding-top: 3rem;
         padding-bottom: 5rem;
+        column-count:1;
 
     }
 
     #figure {
         padding: 0%;
         height: auto;
-        width: 33rem;
+        width: 80%;
         justify-content: center;
         align-items: center;
         display: inline-table;
@@ -405,7 +410,7 @@ footer h3 {
     }
 
     #figure img {
-        max-width: 45vw;
+        max-width: 100%;
     }
 
     #figure figcaption {
@@ -431,8 +436,8 @@ footer h3 {
     .navbar {
 
         float: right;
-        font-size: .9rem;
-        padding-right: 5%;
+        font-size: 1.5rem;
+        padding-right: 3%;
 
 
     }
@@ -454,8 +459,12 @@ footer h3 {
 
     main {
         padding-top: 5rem;
-        padding-bottom: 20rem;
+        padding-bottom: 5rem;
 
+    }
+
+    .gallerydiv {
+        margin-top: 50px;
     }
 
     #figure {
@@ -471,12 +480,12 @@ footer h3 {
     }
 
     #figure img {
-        max-width: 28%;
+        max-width: 100%;
     }
 
     #figure figcaption {
 
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight: bold;
         color: rgb(19, 1, 1);
         width: 80%;
@@ -534,12 +543,13 @@ footer h3 {
 
     #indexpage section {
 
-        margin-bottom: 500px;
+        margin-bottom: 200px;
     }
 
 
     .gallerydiv {
-        margin-bottom: 500px;
+        margin-bottom: 200px;
+        margin-top: 200px;
     }
 
     #contactmain {
