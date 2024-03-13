@@ -267,8 +267,9 @@ footer h3 {
         display: none;
     }
     .nav-toggle-label i {
-        font-size: .8rem;
+        font-size: 1rem;
         color: purple;
+        padding-right: 3rem;
 
     }
 
