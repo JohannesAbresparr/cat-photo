@@ -257,29 +257,35 @@ footer h3 {
         width: 100vw;
         box-shadow: 0 3px 3px #59664ade;
         display: none;
-        top:100%;
-        
+        top: 100%;
+
     }
+
     #nav-toggle:checked~nav {
         display: block;
     }
+
     #nav-toggle {
         display: none;
     }
+
     .nav-toggle-label i {
-        font-size: 1rem;
+        font-size: 1.8rem;
         color: purple;
-        padding-right: 3rem;
+        display: flex;
 
     }
 
 
     main {
-        margin-top: 100px;
+        margin-top: 50px;
+        display: flex;
+
     }
 
+
     #indexpage section span {
-        padding-bottom: 2rem;
+        font-size: 1.5rem;
 
 
     }
@@ -310,12 +316,14 @@ footer h3 {
     }
 
     footer h3 {
-        font-size: .8rem;
+        display: flex;
         font-weight: bold;
+        font-size: 2rem;
     }
 
     .social-networks {
-        align-items: right;
+        float: right;
+        display: flex;
         font-size: .8rem;
         color: blue;
         padding-inline: 2%;
@@ -327,12 +335,35 @@ footer h3 {
 
 
 /* laptop screen */
-/*
+
 @media screen and (max-width:992px) {
     .header {
         font-size: .2rem;
 
     }
+
+    .navbar {
+
+
+        float: right;
+        font-size: 1rem;
+
+
+    }
+
+    #nav-toggle:checked~nav {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label i {
+        display: none;
+
+    }
+
 
     main {
         padding-top: 3rem;
@@ -361,12 +392,36 @@ footer h3 {
 }
 
 /* desktop screen */
-/*
+
 @media screen and (max-width:1200px) {
     .header {
-        font-size: .2rem;
+        font-size: .9rem;
 
     }
+
+    .navbar {
+
+        float: right;
+        font-size: .9rem;
+        padding-right: 5%;
+
+
+    }
+
+    #nav-toggle:checked~nav {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label i {
+        display: none;
+
+    }
+
+
 
     main {
         padding-top: 5rem;
@@ -398,16 +453,49 @@ footer h3 {
 
 /* Wider and wider screen */
 
-/*
+
 @media screen and (min-width:1201px) {
+
+    body {
+        max-width: 100vw;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
     .header {
-        font-size: .8rem;
+        font-size: 2rem;
 
     }
 
+    .navbar {
+
+        float: right;
+        padding-right: 4%;
+        font-size: 2rem;
+
+
+
+
+    }
+
+    #nav-toggle:checked~nav {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label i {
+        display: none;
+
+    }
+
+
+
     main {
-        padding-top: 3rem;
-        padding-bottom: 20rem;
+      flex-grow: 1;
 
     }
 
@@ -419,6 +507,10 @@ footer h3 {
 
     .gallerydiv {
         margin-bottom: 500px;
+    }
+
+    #contactmain {
+        padding-top: 2rem;
     }
 
     #figure {
