@@ -31,7 +31,7 @@ body {
 .header {
     top: 0%;
     left: 0%;
-    background-color: beige;
+    background-color: bisque;
     margin: 0%;
     position: fixed;
     z-index: 99;
@@ -247,8 +247,15 @@ footer h3 {
         font-size: .8rem;
     }
 
+/* dropdown menu on smaller screens */
     .navbar {
-        justify-content: end;
+        
+        position: absolute;
+        background-color: bisque;
+        padding-left: 0.7rem;
+        width: 100vw;
+        box-shadow: 0 3px 3px #59664ade;
+        display: none;
 
     }
 
