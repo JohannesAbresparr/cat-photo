@@ -231,11 +231,14 @@ footer h3 {
 
 /* Contact page style */
 
+
+
 #contactmain div {
     text-align: center;
     color: rgb(144, 50, 252);
     font-family: foldit, Arial, Helvetica, sans-serif;
     font-size: 2rem;
+    flex-direction: column;
 }
 
 /* MEDIA QUERY STYLES*/
@@ -243,6 +246,7 @@ footer h3 {
 /* mobile up to tablet screen */
 
 @media screen and (max-width: 768px) {
+
 
     .logo {
         font-size: .8rem;
@@ -314,6 +318,11 @@ footer h3 {
 
 
     }
+
+    #contactmain img {
+        display: none;
+    }
+
 
     footer h3 {
         display: flex;
@@ -475,8 +484,6 @@ footer h3 {
         font-size: 2rem;
 
 
-
-
     }
 
     #nav-toggle:checked~nav {
@@ -495,7 +502,7 @@ footer h3 {
 
 
     main {
-      flex-grow: 1;
+        flex-grow: 1;
 
     }
 
