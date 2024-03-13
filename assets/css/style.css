@@ -255,8 +255,9 @@ footer h3 {
 @media screen and (max-width: 768px) {
 
 
+   
     .logo {
-        font-size: .8rem;
+        font-size: .5rem;
     }
 
     /* dropdown menu on smaller screens */
@@ -281,20 +282,12 @@ footer h3 {
     }
 
     .nav-toggle-label i {
-        font-size: 1.8rem;
+        font-size: .8rem;
         color: purple;
-        display: flex;
+       float:right;
 
     }
 
-
-    main {
-        margin-top: 50px;
-        display: flex;
-        column-count: 1;
-        column-gap: 2px;
-
-    }
 
 
     #indexpage section span {
@@ -325,11 +318,11 @@ footer h3 {
 
     #figure figcaption {
 
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight: bold;
         color: rgb(19, 1, 1);
-        width: 80%;
-        padding: 1rem;
+        width: 90%;
+        padding: .3rem;
 
 
     }
@@ -338,20 +331,25 @@ footer h3 {
         display: none;
     }
 
+    footer{
+        height:50px;
+        
+    }
 
     footer h3 {
         display: flex;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        paddding-left: 2rem;
     }
 
-    .social-networks {
+    .social-networks i {
         float: right;
         display: flex;
-        font-size: .8rem;
+        font-size: 1.5rem;
         color: blue;
         padding-inline: 2%;
-        padding-right: 10%;
+        padding-right: 2%;
 
     }
 
