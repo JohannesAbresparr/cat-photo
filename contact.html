@@ -36,7 +36,7 @@
         </a>
 
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" aria-label="Open menu"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav class="navbar">
             <a href="index.html" title="Go to the home page" aria-label="go to the homepage">Home</a>
 
@@ -51,34 +51,34 @@
     <!--Main Content-->
 
     <main id="contactmain">
-        <img src="assets/images/header Vilja on the warderobe.jpg" alt="Our cat on top of the warderobe, header image"
+        <img src="assets/images/header_Vilja_on_the_warderobe.jpg" alt="Our cat on top of the warderobe, header image"
             id="startimagecont">
         <div>
             <h2>Contact us!</h2>
-            <h6 aria-label="email adress to contact sitecreator" "email adress">Email: johannes.fotokonst@gmail.com</h6>
+            <h6 aria-label="email adress to contact sitecreator">Email: johannes.fotokonst@gmail.com</h6>
             <h6 aria-label="phone-number to sitecreator">Phone: +46 555-123 45 67 980</h6>
         </div>
         <br>
-        <form action="" method="post" id="contactform">
+        <form action="https://formdump.codeinstitute.net" method="post" id="contactform">
             <fieldset>
                 <legend>Subscribe to our newsletter!</legend>
             <br>
                 <label for="name">Name:</label>
-                <input type="text" id="name">
+                <input type="text" id="name" placeholder="Your name" name="Name" value="Name" required>
                 <br>
                 <label for="email">Email:</label>
-                <input type="email" id="email">
+                <input type="email" id="email" placeholder="Your E-mail" name="E-mail" value="E-mail" required>
                 <br>
                 <p>By checking this box I agree that you may send me e-mails weekly contaning cute photos of your cats
                     and
                     commersial links to photographic equipment. I know I can unsubscribe at any moment, and I know you
                     will
                     not share my name nor email adress with a third part. </p>
-                <label for="agree" id="agree">I understand and give permission.</label>
-                <input type="checkbox" id="agree" value="yes" unchecked></input>
+                <label for="agree">I understand and give permission.</label>
+                <input type="checkbox" id="agree" name="agree" value="yes" required/>
                 <br>
                 
-                <label for="reset" id="reset">Reset:</label>
+                <label for="reset">Reset:</label>
                 <input type="reset" value="Reset" id="reset">
                 <br>
                 
