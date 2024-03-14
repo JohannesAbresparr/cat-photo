@@ -47,9 +47,12 @@ Whitin the footer element the User finds social media links so they can follow m
 - Also a merchandise-page to sell high quality photo equipment to the user. 
 
 ## Testing 
-![image of html testing on index page](assets/images/Skärmbild 2024-03-05 161644.png)
 
-
+![menu bar missing and three columns of photos](<The navigation menu is not showing.png>)
+I have used Dev-tools in Google Chrome to check how the pages respond to diffrent sizes.
+For example I have done a lot of testing to get the gallery-page to work good. 
+I also wanted the navigation bar to become an burger-menu for the smaller screen-sizes.
+Here we see that the buger nav-toggle is missing, We also see there being three columns of photos, at these smaller sizes I want them to be only two.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
