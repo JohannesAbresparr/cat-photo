@@ -206,7 +206,7 @@ footer h3 {
 
 /* Gallery Page */
 
-#figure {
+.figure {
     border: thin #c5a100 solid;
     justify-content: center;
     align-content: center;
@@ -220,7 +220,7 @@ footer h3 {
 
 
 
-#figure figcaption {
+.figure figcaption {
 
     text-align: left;
     font-size: .8rem;
@@ -322,7 +322,7 @@ fieldset {
         column-count: 1;
     }
 
-    #figure {
+    .figure {
         margin: 0%;
         padding: 1%;
         width: 90vw;
@@ -335,11 +335,11 @@ fieldset {
 
     }
 
-    #figure img {
+    .figure img {
         max-width: 100%;
     }
 
-    #figure figcaption {
+    .figure figcaption {
 
         font-size: 1.2rem;
         font-weight: bold;
@@ -437,7 +437,7 @@ fieldset {
         column-count: 2;
     }
 
-    #figure {
+    .figure {
         padding: 0%;
         height: auto;
         width: 80%;
@@ -448,11 +448,11 @@ fieldset {
 
     }
 
-    #figure img {
+    .figure img {
         max-width: 100%;
     }
 
-    #figure figcaption {
+    .figure figcaption {
 
         font-size: 1.3rem;
         font-weight: bold;
@@ -504,7 +504,7 @@ fieldset {
     }
 
 
-    #figure {
+    .figure {
 
         padding: 0%;
         height: auto;
@@ -516,11 +516,11 @@ fieldset {
 
     }
 
-    #figure img {
+    .figure img {
         max-width: 100%;
     }
 
-    #figure figcaption {
+    .figure figcaption {
 
         font-size: 1.2rem;
         font-weight: bold;
@@ -597,7 +597,7 @@ fieldset {
         padding-top: 2rem;
     }
 
-    #figure {
+    .figure {
 
         padding: 0%;
         height: auto;
@@ -609,11 +609,11 @@ fieldset {
 
     }
 
-    #figure img {
+    .figure img {
         max-width: 20vw;
     }
 
-    #figure figcaption {
+    .figure figcaption {
 
         font-size: 1.2rem;
         font-weight: bold;
