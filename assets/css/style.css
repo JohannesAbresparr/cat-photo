@@ -376,11 +376,11 @@ fieldset {
 
     }
 
-    footer h3 {
+    #footerspan {
         display: flex;
         font-weight: bold;
-        font-size: 1.5rem;
-        padding-left: 2rem;
+        font-size: 1rem;
+       
     }
 
     .social-networks i {
