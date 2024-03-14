@@ -256,15 +256,15 @@ footer h3 {
     max-width: 40%;
     font-family: "quicksand, sans-serif";
     font-weight: bold;
-
     padding:1rem;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
     
 }
 fieldset {
+    
     border-width: .3rem;
     border-color: #c5a100;
+  
 }
 
 /* MEDIA QUERY STYLES*/
