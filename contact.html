@@ -51,13 +51,42 @@
     <!--Main Content-->
 
     <main id="contactmain">
-        <div>
-            <h2>Contact us!</h2>
-        </div>
         <img src="assets/images/header Vilja on the warderobe.jpg" alt="Our cat on top of the warderobe, header image"
             id="startimagecont">
+        <div>
+            <h2>Contact us!</h2>
+            <h6>Email: johannes.fotokonst@gmail.com</h6>
+            <h6>Phone: +46 555-123 45 67 980</h6>
+        </div>
         <br>
-        <form action="submit"></form>
+        <form action="" method="post" id="contactform">
+            <fieldset>
+                <legend>Subscribe to our newsletter!</legend>
+
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <br>
+                <p>By checking this box I agree that you may send me e-mails weekly contaning cute photos of your cats
+                    and
+                    commersial links to photographic equipment. I know I can unsubscribe at any moment, and I know you
+                    will
+                    not share my name nor email adress with a third part. </p>
+                <label for="agree" id="agree">I understand and give permission.</label>
+                <imput type="checkbox" id="agree" value="yes" unchecked></imput>
+                <br>
+                <label for="reset" id="reset">Reset:</label>
+                <input type="reset" value="Reset" id="reset">
+                <br>
+                <label for="submit">Submit:</label>
+                <input type="submit" id="submit" value="Submit">
+
+
+            </fieldset>
+        </form>
 
 
 

@@ -246,6 +246,25 @@ footer h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+}
+
+/* contact form style */
+
+#contactform {
+
+    max-width: 40%;
+    font-family: "quicksand, sans-serif";
+    font-weight: bold;
+
+    padding:1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+fieldset {
+    border-width: .3rem;
+    border-color: #c5a100;
 }
 
 /* MEDIA QUERY STYLES*/
