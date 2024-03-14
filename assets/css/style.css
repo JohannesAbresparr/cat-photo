@@ -253,11 +253,11 @@ footer h3 {
 
 #contactform {
 
-    max-width: 40%;
+    max-width: 50%;
     font-family: "quicksand, sans-serif";
     font-weight: bold;
     padding:1rem;
-    align-content: center;
+    
     
 }
 fieldset {
@@ -348,6 +348,22 @@ fieldset {
 
     #contactmain img {
         display: none;
+    }
+
+    #contactform {
+
+        max-width: 90%;
+        font-family: "quicksand, sans-serif";
+        font-weight: bold;
+        padding:1rem;
+        
+        
+    }
+    fieldset {
+        
+        border-width: .2rem;
+        border-color: #c5a100;
+      
     }
 
     footer {
