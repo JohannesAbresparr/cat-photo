@@ -150,7 +150,7 @@ footer {
     float: left;
     padding-left: 2rem;
     padding-top: .2rem;
-   
+
     margin: 0%;
 }
 
@@ -297,11 +297,12 @@ fieldset {
         display: none;
     }
 
+
     .nav-toggle-label {
-        font-size: .5rem;
+        font-size: .8rem;
         color: purple;
         float: right;
-        padding-right: .3rem;
+        padding-right: 1rem;
 
 
     }
@@ -325,11 +326,10 @@ fieldset {
     .figure {
         margin: 0%;
         padding: 1%;
-        width: 90vw;
+        min-width: 95vw;
         height: auto;
         justify-content: center;
         align-items: center;
-
         padding: 0%;
 
 
@@ -380,7 +380,7 @@ fieldset {
         display: flex;
         font-weight: bold;
         font-size: 1rem;
-       
+
     }
 
     .social-networks i {
@@ -423,7 +423,7 @@ fieldset {
         display: none;
     }
 
-    .nav-toggle-label i {
+    .nav-toggle-label {
         display: none;
 
     }
@@ -489,7 +489,7 @@ fieldset {
         display: none;
     }
 
-    .nav-toggle-label i {
+    .nav-toggle-label {
         display: none;
 
     }
@@ -568,7 +568,7 @@ fieldset {
         display: none;
     }
 
-    .nav-toggle-label i {
+    .nav-toggle-label {
         display: none;
 
     }
