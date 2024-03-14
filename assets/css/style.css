@@ -2,7 +2,6 @@
 /* Google Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
-
 /* overall style */
 
 * {
@@ -298,27 +297,30 @@ fieldset {
         display: none;
     }
 
-    .nav-toggle-label i {
-        font-size: .8rem;
+    .nav-toggle-label {
+        font-size: .5rem;
         color: purple;
         float: right;
         padding-right: .3rem;
-        z-index: 100;
+
 
     }
 
     main {
         flex-grow: 1;
+        top: 100%;
     }
 
 
-    #indexpage section span {
+    #indexpage section div {
         font-size: 1.5rem;
 
 
     }
 
-
+    .gallerydiv figure {
+        column-count: 1;
+    }
 
     #figure {
         margin: 0%;
@@ -355,7 +357,7 @@ fieldset {
     #contactform {
 
         max-width: 90%;
-        font-family: "quicksand, sans-serif";
+        font-family: 'quicksand', sans-serif;
         font-weight: bold;
         padding: 1rem;
 
@@ -427,7 +429,12 @@ fieldset {
     }
 
     main {
+        top: 100%;
         flex-grow: 1;
+    }
+
+    .gallerydiv {
+        column-count: 2;
     }
 
     #figure {
@@ -488,10 +495,13 @@ fieldset {
     }
 
     main {
+        top: 100%;
         flex-grow: 1;
     }
 
-
+    .gallerydiv {
+        column-count: auto;
+    }
 
 
     #figure {
@@ -566,6 +576,7 @@ fieldset {
 
 
     main {
+        top: 100%;
         flex-grow: 1;
 
     }
@@ -577,9 +588,10 @@ fieldset {
 
 
     .gallerydiv {
-        margin-bottom: 200px;
-        margin-top: 200px;
+        top: 100%;
+        column-count: auto;
     }
+
 
     #contactmain {
         padding-top: 2rem;
@@ -603,7 +615,7 @@ fieldset {
 
     #figure figcaption {
 
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight: bold;
         color: rgb(19, 1, 1);
         width: 80%;
