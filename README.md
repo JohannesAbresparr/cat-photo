@@ -18,7 +18,7 @@ On the gallery page I added some of my own photos as examples for the User to ex
 
 __Contact page__
 ![IContactpage as imagined](<Contactpage image.png>)
-On the contact page, the User finds my email and my phonnubmer.
+On the contact page, the User finds my email and my phonenumber.
 They may also subscribe to an weekly email with commersial material.
 As the User surely have further questions and a newborn passion for photography, they will be eager to recieve emails with relevant likns.
 I also assure them their personal data is safe with me.

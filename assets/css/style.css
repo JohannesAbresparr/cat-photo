@@ -2,6 +2,7 @@
 /* Google Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
+
 /* overall style */
 
 * {
@@ -301,7 +302,8 @@ fieldset {
         font-size: .8rem;
         color: purple;
         float: right;
-        padding-right: 2rem;
+        padding-right: .3rem;
+        z-index: 100;
 
     }
 
@@ -320,7 +322,6 @@ fieldset {
 
     #figure {
         margin: 0%;
-        border: 0%;
         padding: 1%;
         width: 90vw;
         height: auto;
@@ -492,9 +493,6 @@ fieldset {
 
 
 
-    .gallerydiv {
-        margin-top: 50px;
-    }
 
     #figure {
 
@@ -517,9 +515,9 @@ fieldset {
         font-size: 1.2rem;
         font-weight: bold;
         color: rgb(19, 1, 1);
-        width:90%;
+        width: 90%;
         padding: 3%;
-       
+
 
 
     }
