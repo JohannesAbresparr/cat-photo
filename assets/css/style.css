@@ -145,7 +145,7 @@ footer {
 
 footer h3 {
     color: blue;
-    font-family:"foldit, sans serif";
+    font-family: "foldit, sans serif";
     font-size: 3rem;
     float: left;
     padding-left: 2rem;
@@ -183,7 +183,7 @@ footer h3 {
     color: blue;
     padding-inline: 2%;
     padding-right: 2%;
-    
+
 
 }
 
@@ -210,17 +210,13 @@ footer h3 {
     border: thin #c5a100 solid;
     justify-content: center;
     align-content: center;
-    max-width: 90vw;
+
     box-shadow: 0px 3px 3px #c5a100;
 
 
 }
 
 
-#figure img {
-    max-width: 85vw;
-
-}
 
 
 
@@ -246,7 +242,7 @@ footer h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 /* contact form style */
@@ -256,15 +252,16 @@ footer h3 {
     max-width: 50%;
     font-family: "quicksand, sans-serif";
     font-weight: bold;
-    padding:1rem;
-    
-    
+    padding: 1rem;
+
+
 }
+
 fieldset {
-    
+
     border-width: .3rem;
     border-color: #c5a100;
-  
+
 }
 
 /* MEDIA QUERY STYLES*/
@@ -304,9 +301,13 @@ fieldset {
         font-size: .8rem;
         color: purple;
         float: right;
+        padding-right: 2rem;
 
     }
 
+    main {
+        flex-grow: 1;
+    }
 
 
     #indexpage section span {
@@ -321,11 +322,11 @@ fieldset {
         margin: 0%;
         border: 0%;
         padding: 1%;
-        width: 80vw;
+        width: 90vw;
         height: auto;
         justify-content: center;
         align-items: center;
-        display: flex;
+
         padding: 0%;
 
 
@@ -355,15 +356,16 @@ fieldset {
         max-width: 90%;
         font-family: "quicksand, sans-serif";
         font-weight: bold;
-        padding:1rem;
-        
-        
+        padding: 1rem;
+
+
     }
+
     fieldset {
-        
+
         border-width: .2rem;
         border-color: #c5a100;
-      
+
     }
 
     footer {
@@ -423,12 +425,8 @@ fieldset {
 
     }
 
-
     main {
-        padding-top: 3rem;
-        padding-bottom: 5rem;
-        column-count: 1;
-
+        flex-grow: 1;
     }
 
     #figure {
@@ -437,7 +435,7 @@ fieldset {
         width: 80%;
         justify-content: center;
         align-items: center;
-        display: inline-table;
+
         padding: 0%;
 
     }
@@ -448,7 +446,7 @@ fieldset {
 
     #figure figcaption {
 
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: bold;
         color: rgb(19, 1, 1);
         width: 80%;
@@ -488,13 +486,11 @@ fieldset {
 
     }
 
-
-
     main {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-
+        flex-grow: 1;
     }
+
+
 
     .gallerydiv {
         margin-top: 50px;
@@ -504,7 +500,7 @@ fieldset {
 
         padding: 0%;
         height: auto;
-        width: 20%;
+        max-width: 30%;
         justify-content: center;
         align-items: center;
         display: inline-table;
@@ -521,12 +517,14 @@ fieldset {
         font-size: 1.2rem;
         font-weight: bold;
         color: rgb(19, 1, 1);
-        width: 80%;
-        padding: 1rem;
+        width:90%;
+        padding: 3%;
+       
 
 
     }
 }
+
 
 /* Wider and wider screen */
 
