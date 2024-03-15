@@ -218,8 +218,6 @@ footer {
 
 
 
-
-
 .figure figcaption {
 
     text-align: left;
@@ -318,6 +316,8 @@ fieldset {
 
 
     }
+
+
 
     .gallerydiv figure {
         column-count: 1;
