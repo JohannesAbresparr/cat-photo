@@ -9,15 +9,21 @@ The Cat Photography Tips Website is intended to guide people who wants to take b
 
 ## Features User Experience
 __Index / Homepage__
+
 ![Indexpage as imagined](<Indexpage image.png>) 
+
 On the index-page I wanted the User to get some basic photographic tips. I also added a link to wikipedia explaining the rule of thirds. Hopefully this will improve the quality of photos for the User, as well as ignite a spark of quriosity regaring the wide world of photography.
 
 __Gallery page__
+
 ![Gallerypage as imagined](<Gallerypage image.png>) 
+
 On the gallery page I added some of my own photos as examples for the User to explain more in detail how the photos were taken, thus giving the User a larger understanding for and some more tips on how to take good pictures of their pets.
 
 __Contact page__
+
 ![IContactpage as imagined](<Contactpage image.png>)
+
 On the contact page, the User finds my email and my phonenumber.
 They may also subscribe to an weekly email with commersial material.
 As the User surely have further questions and a newborn passion for photography, they will be eager to recieve emails with relevant likns.
@@ -29,30 +35,43 @@ I also assure them their personal data is safe with me.
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes linksto the Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+
+  When the screen size is and is smaller than 768px the navbar turns into an bar-icon to save space in the header.
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   
   __Logotype__
+
   The logo-name in the header is clickable on every page so whenever clicked it returns to the home-page.
 
 - __The Footer__ 
+
 As you notice as you scroll down the pages, the header is always present with its links.
 The footer is not showing until one has scrolled to the very bottom of the page, this to save some screen-space and avoid distraction.
 Whitin the footer element the User finds social media links so they can follow my other channels for even more valuable tips.
+
 
 ### Features Left to Implement
 
 - In the future I would have added a video-page with photography tutorials.
 - Also a merchandise-page to sell high quality photo equipment to the user. 
 
+
 ## Testing 
 
 ![menu bar missing and three columns of photos](<The navigation menu is not showing.png>)
+
 I have used Dev-tools in Google Chrome to check how the pages respond to diffrent sizes.
 For example I have done a lot of testing to get the gallery-page to work good. 
 I also wanted the navigation bar to become an burger-menu for the smaller screen-sizes.
-Here we see that the buger nav-toggle is missing, We also see there being three columns of photos, at these smaller sizes I want them to be only two.
+Here we see that the buger nav-toggle is missing, We also see there being three columns of photos, at these smaller sizes I want them to be only two, and on 768px and smaller I want only one column.
+
+![Responsive on all browsers tested](responsive_on_firefox_oprah_edge_chrome.png)
+The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly.
+
+![In this image we see the form working well in all browsers.](<Skärmbild 2024-03-15 194856.png>)
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
