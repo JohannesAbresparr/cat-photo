@@ -3,14 +3,13 @@
 /* Google Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Quicksand:wght@300..700&display=swap')
-
 /* overall style */
 
 * {
     min-width: 100vw;
     min-height: 100vh;
     margin: 0px;
-    
+
 }
 
 
