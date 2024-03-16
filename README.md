@@ -48,7 +48,7 @@ I also assure them their personal data is safe with me.
 
 - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
 
-- When the screen size is and is smaller than 768px the navbar turns into an bar-icon to save space in the header.
+- When the screen size is, and is smaller than 768px the navbar turns into an bar-icon to save space in the header.
 
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. 
   
@@ -88,61 +88,88 @@ The Webpage is responsive on all web-browsers i have tested it in, even the subs
 
 ![In this image we see the form working well in all browsers.](<Skärmbild 2024-03-15 194856.png>)
 
+### Functional Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+|Function|On platform|Works good| Fails|
+|--------|-----------|----------|------|
+|Logotype to home|browsers *| Yes |      |
+|nav Home|browsers * |Yes|      |
+|nav Gallery| browsers * |Yes |      |
+|nav Contact |browsers *|Yes|      |
+|Wiki-link in tips on index |  browsers *|Yes |      |
+|<h4>The footer social-media links</h4>|
+|X|browsers *|Yes||
+|Instagram|browsers *|Yes||
+|Facebook|browsers *|Yes||
+Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
+
+##### Contast UX
+- I have chosen the colors on the website myself, I have also tested the contrast visability:
 
 ![Wave contrast test.](no_errors_according_to_contrast_visability.png)
 
 - No contrast-errors were found on testing the website on [Wave.webaim.org](https://wave.webaim.org/) 
 
 
+##### HTML
+I have used the [W3C Markup Validation Service](https://validator.w3.org/) to check my HTML.
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+![No html errors on index-page](W3_validator_index.png)
+![No html errors on gallery-page](W3_Validator_Gallery.png)
+![No html errors on contact-page](W3_Validator_contact.png)
+
+##### CSS 
+I have used the [W3C Jigsaw css validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test my stylesheet.
+
+![CSS Validator](CSS_VALIDATOR.png)
+
+There are no errors but the one that the css overall style somehow makes the validator react.
+Otherwice the code is clean and functional.
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+The CSS overall style where I set the overall margins seem to get a reaction in the css validator, but it is nothing that shows in on the website.
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was built on gitpod and deployed to GitHub pages. The steps to deploy are as follows:
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+1. On GitHub- pages click the settings menu. 
+
+2. In the "Code and automation" section of the sidebar, click Pages.
+
+3. Under "Build and deployment", under "Source", select Deploy from a branch.
+
+4. Under "Build and deployment", under "Branch", use the branch dropdown menu and select a publishing source.  
+
+5. Choose "main" and "root" and click "save".
+
+Live site adress: [cat photography tips website](https://johannesabresparr.github.io/cat-photo/)
+
+###### Step by step photo:
+
+![deploy 1](GITHUB_DEPLOY.png) ![deploy 2](Github-deploy_2.png) ![deploy 3](github_deploy_3.png)
 
 
 ## Credits 
 
-
- 
-
-- I got the idea for the nav bar toggle- icon on smaller screens from the Code Institute walkthrough by AJ Greaves, explained so well by Jo Heyndels. I have used much of the class- and id- names from the walkthrough since they were the most fitting in the code, but I have styled it diffrently. 
+-I got the idea for the nav bar toggle- icon on smaller screens from the Code Institute walkthrough by AJ Greaves, explained so well by Jo Heyndels. I have used much of the class- and id- names from the walkthrough since they were the most fitting in the code, but I have styled it diffrently. 
 
 -The transition- attribute where the navigation- social media- and other -links "slowly" change color while hovered I stumbled upon watching this youtube channel [@WebDevSimplified.](https://www.youtube.com/@WebDevSimplified) and more exact this video: [Animated burger menu how to](https://www.youtube.com/watch?v=dAIVbLrAb_U&t=787s)
 
-The idea on how I would make the header stick to the top but make the footer scroll up with the content within the body (this to save valuable space and reduce distraction on especially small screens ) came from this Youtube channel: [The Code Creative](https://www.youtube.com/@TheCodeCreative)  and more exactly this video: [Footer tutorial](https://www.youtube.com/watch?v=ffb34dCmMVQ)
+-The idea on how I would make the header stick to the top but make the footer scroll up with the content within the body (this to save valuable space and reduce distraction on especially small screens ) came from this Youtube channel: [The Code Creative](https://www.youtube.com/@TheCodeCreative)  and more exactly this video: [Footer tutorial](https://www.youtube.com/watch?v=ffb34dCmMVQ)
 
 
 -I have used the Code institute template [The Code Institute Responsive Formdump](https://formdump.codeinstitute.net/) whitin my subscription-form on my contact page.
 
 
-- I started out making divs with paragraphs, but searched om google an found this page which gave me some tips on how to set up the gallery useing <figure> and <figurecaption>.
+-I started out making divs with paragraphs, but searched om google an found this page which gave me some tips on how to set up the gallery useing <figure> and <figurecaption>.
 Medium.com
 [medium.com where I found figure and figcaption](https://medium.com/frontendshortcut/how-to-make-a-polaroid-photo-gallery-in-html-and-css-d68f5a306c84)
 
@@ -154,7 +181,7 @@ Medium.com
 
 -I have linked [Wikipedia rule of thirds](https://en.wikipedia.org/wiki/Rule_of_thirds) for the users to find a broader explenation of the "rule of thirds".
 
-- The icons in the header and footer were taken from [Font Awesome](https://fontawesome.com/)
+-The icons in the header and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
