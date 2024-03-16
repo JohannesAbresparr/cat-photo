@@ -1,5 +1,5 @@
 
-#Cat Photography Tips Website
+# Cat Photography Tips Website
 
 ![Responsive design it works on all screen sizes](<compatability on all screens catphoto.png>)
 the responsive image is from [am i responsive?](https://ui.dev/amiresponsive?url=https://johannesabresparr.github.io/cat-photo/)
@@ -35,7 +35,7 @@ __Contact page__
 
 On the contact page, the User finds my email and my phonenumber.
 They may also subscribe to a weekly email with commersial material.
-As the User surely have further questions and a newborn passion for photography, they will be eager to recieve emails with relevant likns.
+As the User surely have further questions and a newborn passion for photography, they will be eager to recieve emails with relevant links.
 I also assure them their personal data is safe with me.
 
 
@@ -43,6 +43,8 @@ I also assure them their personal data is safe with me.
 ### Existing Features
 
 - __Navigation Bar__
+
+![navbar](navigation.png)
 
 - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
 
@@ -52,9 +54,12 @@ I also assure them their personal data is safe with me.
   
  - __Logotype__
 
+![logotype name in header](Header_with_logoname.png)
 - The logo-name in the header is clickable on every page so whenever clicked it returns to the home-page.
 
 - __The Footer__ 
+
+![social media links in footer](footer-sml.png)
 
 - As you notice when you scroll down the pages, the header is always present with its links.
 The footer is not showing until one has scrolled to the very bottom of the page, this to save some screen-space and avoid distraction.
@@ -79,7 +84,7 @@ Here we see that the buger nav-toggle is missing, We also see there being three 
 I was finally able to solve this by changeing the order of the media-querries from biggest to smallest screen-size within the stylesheet.
 
 ![Responsive on all browsers tested](responsive_on_firefox_oprah_edge_chrome.png)
-The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly.
+The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Firefox, Oprah and Chrome. 
 
 ![In this image we see the form working well in all browsers.](<Skärmbild 2024-03-15 194856.png>)
 
