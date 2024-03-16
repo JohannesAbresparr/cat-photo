@@ -17,7 +17,7 @@ __Index / Homepage__
 
 ![The Index-page on small screen](The_Indexpage_on_small_screen.png)
 
-On the index-page I wanted the User to get some basic photographic tips. I wrote all of the text myself. I also added a link to wikipedia explaining the rule of thirds. Hopefully this will improve the quality of photos for the User, as well as ignite a spark of quriosity regaring the wide world of photography.
+On the index-page I wanted the User to get some basic photographic tips. I wrote all of the text myself. I also added a link to wikipedia explaining the rule of thirds. Hopefully this will improve the quality of photos for the User, as well as ignite a spark of curiosity regaring the wide world of photography.
 
 __Gallery page__
 
