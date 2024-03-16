@@ -145,7 +145,7 @@ footer {
 
 #footerspan {
     color: blue;
-    font-family: impact, sans serif;
+    font-family: impact, sans-serif;
     font-size: 3rem;
     float: left;
     padding-left: 2rem;
@@ -629,6 +629,3 @@ fieldset {
     }
 
 }
-
-
-
